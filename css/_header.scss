@@ -1,0 +1,41 @@
+ul,nav{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  35px 100px 0;
+    z-index: 1000;
+
+    
+
+    h2{
+        text-transform: uppercase;
+    }
+
+    nav{
+        display: flex;
+
+        li{
+            margin: 0 15px;
+        }
+
+        li:first-child{
+            margin-left: 0;
+        }
+        li:last-child{
+            margin-right: 0;
+        }
+    }
+}

@@ -1,0 +1,106 @@
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 100px;
+
+    p{
+        max-width: 800px;
+        text-align: center;
+        margin-bottom: 35px;
+        padding: 0 20px;
+        line-height: 2;
+    }
+}
+
+.banner-area{
+    position: relative;
+    justify-content: center;
+    min-height: 100vh;
+    color: #f3f3f3;
+    text-align: center;
+
+    .custom-shape-divider-bottom-1615381683 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1615381683 svg {
+        position: relative;
+        display: block;
+        width: calc(134% + 1.3px);
+        height: 40px;
+    }
+    
+    .custom-shape-divider-bottom-1615381683 .shape-fill {
+        fill: #E2E2E2;
+    }
+
+    .banner-img{
+        background-image: url(../img/1.jpg);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        z-index: -1;
+
+        &::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            opacity: .8;
+        }
+    }
+
+    h1{
+        margin-bottom: 50px;
+        font-family: 'Reggae One', cursive;
+        font-size: 70px;
+        padding:10px;
+        border-radius: 10px;
+    }
+
+    h2{
+        text-decoration: underline;
+        margin-bottom: 40px;
+        font-size: 30px;
+        transition: 0.5s;
+
+        &:hover{
+        transform:scale(1.2);
+        color: #2196f3;
+        text-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+        }
+    }
+
+    .banner-btn{
+        text-transform: uppercase;
+        padding: 20px 35px;
+        overflow: hidden;
+        transition: 0.2;
+        color: #2196f3;
+        transition: 0.5s;
+        text-shadow: 0 0 10px #2196f3;
+        border: 1px solid;
+
+        &:hover{
+            color: #1c4161;
+            background: #2196f3;
+            box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+            border:none; 
+        }
+    }
+}
+
