@@ -17,7 +17,10 @@ $(document).ready(function(e) {
         $('.span-about').addClass('span-about-neon');
         $('.about-project').addClass('about-project-neon');
         $('.about-right').addClass('about-right-neon');
-        
+        $('.about-btn').removeClass('about-btn').addClass('about-btn-neon');
+        $('.shape-fill').css("fill" , "#000116");
+
+
     });
     
  });
