@@ -1,0 +1,57 @@
+@keyframes headerNeon {
+    from {
+      text-shadow:
+      0 0 6px rgba(202,228,225,0.92),
+      0 0 30px rgba(202,228,225,0.34),
+      0 0 12px rgba(30,132,242,0.52),
+      0 0 21px rgba(30,132,242,0.92),
+      0 0 34px rgba(30,132,242,0.78),
+      0 0 54px rgba(30,132,242,0.92);
+    }
+    to {
+      text-shadow:
+      0 0 6px rgba(202,228,225,0.98),
+      0 0 30px rgba(202,228,225,0.42),
+      0 0 12px rgba(30,132,242,0.58),
+      0 0 22px rgba(30,132,242,0.84),
+      0 0 38px rgba(30,132,242,0.88),
+      0 0 60px rgba(30,132,242,1);
+    }
+  }
+
+@keyframes heroNeon{
+
+    0%,18%,20%,50.1%,60%,65.1%, 80%,90.1%,92%
+    {
+        color:#fff;
+        text-shadow: none;
+    }
+
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+    {
+        color:#fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+    }
+}
+
+
+@keyframes spanAbout{
+
+  0%,80%{
+    color: #000116;
+    text-shadow: none;
+  }
+  100%{
+    color:#fff;
+    text-shadow: 0 0 10px rgb(243, 46, 11),
+                 0 0 20px rgb(243, 46, 11),
+                 0 0 40px rgb(243, 46, 11),
+                 0 0 80px rgb(243, 46, 11),
+                 0 0 120px rgb(243, 46, 11),
+                 0 0 160px rgb(243, 46, 11),
+  }
+}

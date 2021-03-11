@@ -39,3 +39,7 @@ header{
         }
     }
 }
+
+.header-neon {
+    animation: headerNeon .08s ease-in-out infinite alternate;
+}
