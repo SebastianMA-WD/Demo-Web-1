@@ -20,6 +20,10 @@ $(document).ready(function(e) {
         $('.about-btn').removeClass('about-btn').addClass('about-btn-neon');
         $('.shape-fill').css("fill" , "#000116");
 
+        /* Contact */
+
+        $('.span-contact').addClass('span-contact-neon');
+        $('.contact-area').addClass('contact-area-neon');
 
     });
     

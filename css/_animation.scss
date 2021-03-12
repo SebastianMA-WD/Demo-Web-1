@@ -41,9 +41,24 @@
     color:#fff;
     text-shadow: 0 0 10px rgb(243, 46, 11),
                  0 0 20px rgb(243, 46, 11),
-                 0 0 40px rgb(243, 46, 11),
-                 0 0 80px rgb(243, 46, 11),
-                 0 0 120px rgb(243, 46, 11),
-                 0 0 160px rgb(243, 46, 11),
+                 0 0 40px rgb(243, 46, 11);
+  }
+
+}
+
+
+
+@keyframes spanContact{
+
+  0%,80%{
+    color: #46000c;
+    text-shadow: none;
+  }
+  100%{
+    color:#fff;
+    text-shadow: 0 0 10px rgb(158, 253, 6),
+                 0 0 20px rgb(158, 253, 6),
+                 0 0 40px rgb(158, 253, 6);
+
   }
 }
